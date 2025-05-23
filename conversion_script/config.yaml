@@ -1,0 +1,278 @@
+fig1.xlsx:
+   axes:
+    -   lat
+    -   lon
+   lat:
+    -   -29.5
+    -   29.5
+   lon:
+   -    -179.5
+   -    179.5
+   data:
+       Fig1a:
+          units: hours
+          longname: 'Time since convection (instantaneous)'
+       Fig1b:
+          units: arb.
+          longname: 'Insitu-detrained flag value (instantaneous)'
+       Fig1c:
+          units: arb.
+          longname: 'Land-ocean origin flag value (instantaneous)'          
+       Fig1d:
+          units: hours
+          longname: 'Time since convection (climatology)'
+       Fig1e:
+          units: arb.
+          longname: 'Insitu-detrained flag value (climatology)'
+       Fig1f:
+          units: arb.
+          longname: 'Land-ocean origin flag value (climatology)'          
+
+fig2.xlsx:
+   axes:
+    -   lat
+    -   lon
+   lat:
+    -   -29.5
+    -   29.5
+   lon:
+   -    0.5
+   -    359.5
+   data:
+       Fig2a:
+          units: W m^-2
+          longname: 'All sky TOA SW Flux'
+       Fig2b:
+          units: W m^-2
+          longname: 'Background TOA SW Flux'
+       Fig2c:
+          units: W m^-2
+          longname: 'High cloud SW CRE'
+
+fig3.xlsx:
+   axes:
+    -   time_since_convection
+   time_since_convection:
+    -   0.5
+    -   199.5
+   data:
+       Fig3_insline:
+          units: 1
+          longname: Fractional occurrence of insitu parcels'
+       Fig3_detline:
+          units: 1
+          longname: Fractional occurrence of detrained cirrus'
+
+fig4.xlsx:
+   axes:
+    -   lifetime
+   lifetime:
+    -   0.5
+    -   199.5
+   data:
+       Fig4_land_hist:
+          units: 1
+          longname: Detrained cirrus lifetime (land origin)
+       Fig4_ocean_hist:
+          units: 1
+          longname: Detrained cirrus lifetime (ocean origin)
+          
+fig5.xlsx:
+   axes:
+    - time_of_convection
+    - metric 
+   time_of_convection:
+    -   0
+    -   21
+   metric:
+    - 0
+    - 2
+   data:
+       Fig5_all:
+          units: hours
+          longname: 'All origin lifetime (columns are mean, lower and upper uncertainty)'
+       Fig5_land:
+          units: hours
+          longname: 'Land origin lifetime (columns are mean, lower and upper uncertainty)'
+       Fig5_ocean:
+          units: hours
+          longname: 'Ocean origin lifetime (columns are mean, lower and upper uncertainty)'
+
+fig6.xlsx:
+   axes:
+    -   time_since_convection
+   time_since_convection:
+    -   0.5
+    -   119.5
+   data:
+       Fig6_lwall:
+          units: W m^-2
+          longname: 'LW CRE (all high clouds)'
+       Fig6_lwdet:
+          units: W m^-2
+          longname: 'LW CRE (detrained cirrus only)'
+       Fig6_lwins:
+          units: W m^-2
+          longname: 'LW CRE (insitu parcels only)'
+       Fig6_swall:
+          units: W m^-2
+          longname: 'SW CRE (all high clouds)'
+       Fig6_swdet:
+          units: W m^-2
+          longname: 'SW CRE (detrained cirrus only)'
+       Fig6_swins:
+          units: W m^-2
+          longname: 'SW CRE (insitu parcels only)'
+       Fig6_netall:
+          units: W m^-2
+          longname: 'Net CRE (all high clouds)'
+       Fig6_netdet:
+          units: W m^-2
+          longname: 'Net CRE (detrained cirrus only)'
+       Fig6_netins:
+          units: W m^-2
+          longname: 'Net CRE (insitu parcels only)'
+
+fig7.xlsx:
+   axes:
+    -   time_since_convection
+   time_since_convection:
+    -   0.5
+    -   119.5
+   data:
+       Fig7_lwland:
+          units: W m^-2
+          longname: 'LW CRE (land origin convection)'
+       Fig7_swland:
+          units: W m^-2
+          longname: 'SW CRE (land origin convection)'
+       Fig7_netland:
+          units: W m^-2
+          longname: 'Net CRE (land origin convection)'
+       Fig7_lwocean:
+          units: W m^-2
+          longname: 'LW CRE (ocean origin convection)'
+       Fig7_swocean:
+          units: W m^-2
+          longname: 'SW CRE (ocean origin convection)'
+       Fig7_netocean:
+          units: W m^-2
+          longname: 'Net CRE (ocean origin convection)'
+
+fig8.xlsx:
+   axes:
+    - time_of_convection
+    - metric 
+   time_of_convection:
+    -   0
+    -   22
+   metric:
+    - 0
+    - 2
+   data:
+       Fig8_all:
+          units: 1
+          longname:
+             'Global convection occurrence (columns are mean, lower and upper uncertainty)'
+       Fig8_land:
+          units: 1
+          longname:
+             'Land convection occurrence (columns are mean, lower and upper uncertainty)'
+       Fig8_ocean:
+          units: 1
+          longname:
+             'Ocean convection occurrence (columns are mean, lower and upper uncertainty)'
+
+fig9.xlsx:
+   axes:
+    -   time_since_convection
+   time_since_convection:
+    -   0.5
+    -   199.5
+   data:
+       Fig9_det0:
+          units: 1
+          longname: 'Fractional occurrence of detrained cirrus (as observed)'
+       Fig9_det25:
+          units: 1
+          longname: 'Fractional occurrence of detrained cirrus (25% extended lifetime)'
+       Fig9_det50:
+          units: 1
+          longname: 'Fractional occurrence of detrained cirrus (50% extended lifetime)'
+       Fig9_det75:
+          units: 1
+          longname: 'Fractional occurrence of detrained cirrus (75% extended lifetime)'
+       Fig9_det100:
+          units: 1
+          longname: 'Fractional occurrence of detrained cirrus (100% extended lifetime)'
+       Fig9_ins0:
+          units: 1
+          longname: 'Fractional occurrence of insitu parcels (as observed)'
+       Fig9_ins25:
+          units: 1
+          longname: 'Fractional occurrence of insitu parcels (25% extended lifetime)'
+       Fig9_ins50:
+          units: 1
+          longname: 'Fractional occurrence of insitu parcels (50% extended lifetime)'
+       Fig9_ins75:
+          units: 1
+          longname: 'Fractional occurrence of insitu parcels (75% extended lifetime)'
+       Fig9_ins100:
+          units: 1
+          longname: 'Fractional occurrence of insitu parcels (100% extended lifetime)'
+
+fig10.xlsx:
+   axes:
+    -   lifetime_extension
+    -   metric
+   lifetime_extension:
+    -   0.5
+    -   99.5
+   metric:
+    -   0
+    -   2
+   data:
+       Fig10_all:
+          units: W m^-2
+          longname: 'Net CRE change - all origin cirrus (columns are mean, lower and upper uncertainty)'
+       Fig10_land:
+          units: W m^-2
+          longname: 'Net CRE change - land origin cirrus (columns are mean, lower and upper uncertainty)'
+       Fig10_ocean:
+          units: W m^-2
+          longname: 'Net CRE change - ocean origin cirrus (columns are mean, lower and upper uncertainty)'
+
+fig11.xlsx:
+   axes:
+    -   time_since_convection
+   time_since_convection:
+    -   0.5
+    -   119.5
+   data:
+       Fig11_net0:
+          units: W m^-2
+          longname: 'Net high cloud CRE'
+       Fig11_net50:
+          units: W m^-2
+          longname: 'Net high cloud CRE (50% detrained cirrus lifetime extension)'
+       Fig11_net100:
+          units: W m^-2
+          longname: 'Net high cloud CRE (100% detrained cirrus lifetime extension)'
+       Fig11_sw0:
+          units: W m^-2
+          longname: 'SW high cloud CRE'
+       Fig11_sw50:
+          units: W m^-2
+          longname: 'SW high cloud CRE (50% detrained cirrus lifetime extension)'
+       Fig11_sw100:
+          units: W m^-2
+          longname: 'SW high cloud CRE (100% detrained cirrus lifetime extension)'
+       Fig11_lw0:
+          units: W m^-2
+          longname: 'LW high cloud CRE'
+       Fig11_lw50:
+          units: W m^-2
+          longname: 'LW high cloud CRE (50% detrained cirrus lifetime extension)'
+       Fig11_lw100:
+          units: W m^-2
+          longname: 'LW high cloud CRE (100% detrained cirrus lifetime extension)'
